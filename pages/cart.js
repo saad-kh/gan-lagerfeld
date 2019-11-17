@@ -110,7 +110,7 @@ function Cart() {
                       </Typography>
                     </CardContent>
                   </Card>
-                  <a className="link" href={product.url}></a>
+                  <a className="link" href={product.url} target="_blank"></a>
                 </div>
               </Grid>
             ))}
