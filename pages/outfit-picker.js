@@ -62,6 +62,7 @@ const OutfitPicker = () => {
 
   return (
     <div className="container">
+      <img className="demo-image" src="/demo_high_res.gif" />
       <Button
         variant="outlined"
         disableRipple
@@ -88,6 +89,11 @@ const OutfitPicker = () => {
           justify-content: center;
           width: 100vw;
           height: 100vh;
+        }
+
+        .demo-image {
+          width: 80%;
+          margin: 25px;
         }
       `}</style>
     </div>

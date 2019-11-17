@@ -83,9 +83,7 @@ function Cart() {
   const products = useProducts(state.selectedPartId);
   return (
     <div className="container">
-      <div className="title">
-        Here's a list of item that suits your look and outfit
-      </div>
+      <div className="title">based on our ai, we suggest you</div>
       <div className="cart">
         {products === null ? (
           <div className="progress">
